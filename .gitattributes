@@ -1,0 +1,11 @@
+# Ensure consistent line endings
+* text=auto
+
+# Treat Jupyter notebooks as binary (use nbdime or don't diff if not installed)
+*.ipynb binary
+
+# Make SQL files text
+*.sql text
+
+# Ensure README normalized
+README.md text
